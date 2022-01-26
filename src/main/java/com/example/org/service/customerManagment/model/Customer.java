@@ -29,4 +29,10 @@ public class Customer {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public Customer(String name, int id, int age) {
+        this.name = name;
+        this.id = id;
+        this.age = age;
+    }
 }
